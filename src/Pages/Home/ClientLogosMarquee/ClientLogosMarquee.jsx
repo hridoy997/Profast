@@ -13,7 +13,7 @@ const logos = [client1, client2, client3, client4, client5, client6, client7];
 const ClientLogosMarquee = () => {
     return (
         <section className="py-16">
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
 
                 {/* Section heading */}
                 <div className="text-center mb-10">
