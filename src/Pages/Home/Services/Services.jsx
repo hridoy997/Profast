@@ -1,12 +1,6 @@
 import ServiceCard from "./ServiceCard";
-import {
-    FiZap,
-    FiMapPin,
-    FiPackage,
-    FiDollarSign,
-    FiBriefcase,
-    FiRefreshCw,
-} from "react-icons/fi";
+import { FiZap, FiMapPin, FiPackage, FiDollarSign, FiBriefcase, FiRefreshCw,} from "react-icons/fi";
+
 
 const servicesData = [
     {

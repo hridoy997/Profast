@@ -1,5 +1,4 @@
 import Marquee from "react-fast-marquee";
-
 import client1 from "../../../assets/brands/amazon.png";
 import client2 from "../../../assets/brands/amazon_vector.png";
 import client3 from "../../../assets/brands/casio.png";
@@ -7,6 +6,7 @@ import client4 from "../../../assets/brands/moonstar.png";
 import client5 from "../../../assets/brands/randstad.png";
 import client6 from "../../../assets/brands/star.png";
 import client7 from "../../../assets/brands/start_people.png";
+
 
 const logos = [client1, client2, client3, client4, client5, client6, client7];
 

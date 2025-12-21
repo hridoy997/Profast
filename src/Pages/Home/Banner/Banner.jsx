@@ -4,6 +4,7 @@ import BannerImage1 from '../../../assets/banner/banner1.png';
 import BannerImage2 from '../../../assets/banner/banner2.png';
 import BannerImage3 from '../../../assets/banner/banner3.png';
 
+
 const Banner = () => {
     return (
         <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false}>

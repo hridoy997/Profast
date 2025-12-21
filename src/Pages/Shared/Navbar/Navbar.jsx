@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router';
 import ProfastLogo from '../ProFastLogo/ProfastLogo';
 
+
 const Navbar = () => {
 
     const navItems = <>
@@ -9,7 +10,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -17,7 +18,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow">
                         {navItems}
                     </ul>
                 </div>
@@ -31,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <button className="btn">Button</button>
             </div>
         </div>
     );

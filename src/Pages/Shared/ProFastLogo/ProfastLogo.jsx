@@ -1,5 +1,6 @@
 import Logo from '../../../assets/logo.png';
 
+
 const ProfastLogo = () => {
     return (
         <div className='flex items-end'>

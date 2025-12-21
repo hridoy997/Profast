@@ -1,10 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-
-// import { RouterProvider } from "react-router/dom";
-import { RouterProvider } from "react-router";
+import { RouterProvider } from 'react-router';
 import router from './Router/Router';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+Aos.init();
 
 
 createRoot(document.getElementById('root')).render(
