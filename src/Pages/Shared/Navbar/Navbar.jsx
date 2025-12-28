@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import ProfastLogo from '../ProFastLogo/ProfastLogo';
 
 
@@ -6,6 +6,7 @@ const Navbar = () => {
 
     const navItems = <>
         <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/coverage">Coverage</NavLink></li>
         <li><NavLink to="/about">About Us</NavLink></li>
     </>
 
@@ -22,9 +23,7 @@ const Navbar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <NavLink to="/">
-                    <ProfastLogo />
-                </NavLink>
+                <ProfastLogo />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -32,7 +31,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn">Button</button>
+                <Link to="/login" className="btn bg-lime-400 hover:bg-lime-500 text-black">Login</Link>
             </div>
         </div>
     );
