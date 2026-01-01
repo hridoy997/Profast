@@ -69,7 +69,7 @@ export default function FAQ() {
 
                 {/* Button */}
                 <div className="mt-10 flex justify-center">
-                    <button className="btn bg-primary hover:bg-primary/50 text-black border-none">
+                    <button className="btn bg-primary/80 hover:bg-primary text-black border-none">
                         See More FAQ&apos;s
                         <span className="ml-2 inline-flex items-center justify-center w-7 h-7 rounded-full bg-black text-white">
                             ↗

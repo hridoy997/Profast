@@ -4,7 +4,7 @@ import BangladeshMap from "../../Components/BangladeshMap/BangladeshMap";
 const Coverage = () => {
 
     const districts = useLoaderData();
-    console.log(districts);
+    // console.log(districts);
 
     return (
         <div className="max-w-7xl mx-auto px-4 py-8">

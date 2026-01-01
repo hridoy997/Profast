@@ -127,7 +127,7 @@ export default function Testimonials() {
 
                         <button
                             type="button"
-                            className="btn btn-circle bg-primary hover:bg-primary/50 text-black border-none"
+                            className="btn btn-circle bg-primary/80 hover:bg-primary text-black border-none"
                             onClick={() => carouselRef.current?.increment?.()}
                             aria-label="Next"
                         >

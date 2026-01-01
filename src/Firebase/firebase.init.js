@@ -15,11 +15,11 @@ const firebaseConfig = {
 };
 
 // Debug: Check if environment variables are loaded
-console.log('Firebase Config:', {
-    apiKey: firebaseConfig.apiKey ? 'Loaded' : 'Missing',
-    authDomain: firebaseConfig.authDomain,
-    projectId: firebaseConfig.projectId
-});
+// console.log('Firebase Config:', {
+//     apiKey: firebaseConfig.apiKey ? 'Loaded' : 'Missing',
+//     authDomain: firebaseConfig.authDomain,
+//     projectId: firebaseConfig.projectId
+// });
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

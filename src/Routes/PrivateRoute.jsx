@@ -2,8 +2,7 @@ import { Navigate } from 'react-router';
 import LoadingSpinner from '../Components/LoadingSpinner/LoadingSpinner';
 import UseAuth from '../Hooks/UseAuth';
 
-const PrivatRoute = ({children}) => {
-
+const PrivateRoute = ({children}) => {
     const {user, loading} = UseAuth();
 
     if(loading){
@@ -17,4 +16,4 @@ const PrivatRoute = ({children}) => {
     return children;
 };
 
-export default PrivatRoute;
+export default PrivateRoute;
